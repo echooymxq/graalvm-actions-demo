@@ -21,5 +21,5 @@ jobs:
       - name: Upload package
         uses: actions/upload-artifact@v3
         with:
-          name: ${{ matrix.fileName }}
-          path: target/graalvm-actions-demo
+          name: graalvm-actions-demo
+          path: target/
